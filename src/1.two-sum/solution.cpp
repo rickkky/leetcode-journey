@@ -4,12 +4,12 @@
  * [1] 两数之和
  */
 
-// @lc code=start
 #include <unordered_map>
 #include <vector>
 
 using namespace std;
 
+// @lc code=start
 class Solution {
  public:
   vector<int> twoSum(vector<int> &nums, int target) {
