@@ -1,0 +1,42 @@
+{
+  "name": "leetcode-journey",
+  "version": "1.0.0",
+  "description": "repo of records of leetcode.",
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "ricky",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickkky/leetcode-journey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rickkky/leetcode-journey/issues"
+  },
+  "homepage": "https://github.com/rickkky/leetcode-journey#readme",
+  "scripts": {
+    "commit:cz": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.6",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
+}
