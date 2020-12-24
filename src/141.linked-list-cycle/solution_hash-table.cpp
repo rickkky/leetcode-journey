@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode id=141 lang=cpp
+ * @lc app=leetcode.cn id=141 lang=cpp
  *
- * [141] Linked List Cycle
+ * [141] 环形链表
  */
 
 #include <unordered_set>
@@ -14,7 +14,6 @@ using namespace std;
 struct ListNode {
   int val;
   ListNode *next;
-  ListNode(int x) : val(x), next(NULL) {}
 };
 
 // @lc code=start
