@@ -27,15 +27,15 @@ class Solution {
     }
 
     ListNode *slower = head;
-    ListNode *faster = head->next;
+    ListNode *faster = head;
 
     while (faster) {
-      if (slower == faster) {
-        return true;
-      }
-
       slower = slower->next;
       faster = faster->next ? faster->next->next : nullptr;
+
+      if (slower && slower == faster) {
+        return true;
+      }
     }
 
     return false;

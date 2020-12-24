@@ -28,15 +28,15 @@ function hasCycle(head: ListNode | null): boolean {
   }
 
   let slower: ListNode | null = head;
-  let faster: ListNode | null = head.next;
+  let faster: ListNode | null = head;
 
   while (faster) {
-    if (slower === faster) {
-      return true;
-    }
-
     slower = (slower as ListNode).next;
     faster = faster.next ? faster.next.next : null;
+
+    if (slower && slower === faster) {
+      return true;
+    }
   }
 
   return false;
