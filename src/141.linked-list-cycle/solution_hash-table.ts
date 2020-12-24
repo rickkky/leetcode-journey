@@ -4,15 +4,24 @@
  * [141] 环形链表
  */
 
-/**
- * Definition for singly-linked list.
- */
 interface ListNode {
   val: number;
   next: ListNode | null;
 }
 
 // @lc code=start
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
+
 function hasCycle(head: ListNode | null): boolean {
   const set = new Set<ListNode>();
   let current = head;
