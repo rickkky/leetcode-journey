@@ -4,24 +4,19 @@
  * [141] 环形链表
  */
 
-interface ListNode {
+/**
+ * Definition for singly-linked list.
+ */
+class ListNode {
   val: number;
   next: ListNode | null;
+  constructor(val?: number, next?: ListNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.next = next === undefined ? null : next;
+  }
 }
 
 // @lc code=start
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
- * }
- */
-
 function hasCycle(head: ListNode | null): boolean {
   if (!head) {
     return false;
