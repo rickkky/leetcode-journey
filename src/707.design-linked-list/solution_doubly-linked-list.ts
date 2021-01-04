@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=707 lang=typescript
  *
- * [707] 设计链表
+ * https://leetcode-cn.com/problems/design-linked-list/
  */
 
 // @lc code=start

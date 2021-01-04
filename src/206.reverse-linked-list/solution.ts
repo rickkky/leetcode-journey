@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=206 lang=typescript
  *
- * [206] 反转链表
+ * https://leetcode-cn.com/problems/reverse-linked-list/
  */
 
 /**

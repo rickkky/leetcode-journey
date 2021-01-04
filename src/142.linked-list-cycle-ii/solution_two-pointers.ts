@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=142 lang=typescript
  *
- * [142] 环形链表 II
+ * https://leetcode-cn.com/problems/linked-list-cycle-ii/
  */
 
 /**

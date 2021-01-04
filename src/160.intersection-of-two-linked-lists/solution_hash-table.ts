@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=160 lang=typescript
  *
- * [160] 相交链表
+ * https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
  */
 
 /**
