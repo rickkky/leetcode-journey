@@ -1,6 +1,6 @@
 # [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 
-## [双指针法](./solution.ts)
+## [双指针法](./solution_two-pointers.ts)
 
 假设两个链表相交，它们的长度分别为 a + c 和 b + c ，相交部分的长度为 c。
 
