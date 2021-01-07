@@ -21,7 +21,7 @@ function mergeTwoLists(
   l1: ListNode | null,
   l2: ListNode | null,
 ): ListNode | null {
-  const sentry = new ListNode(0, null);
+  const sentry = new ListNode();
   let current = sentry;
   let p1 = l1;
   let p2 = l2;
