@@ -1,5 +1,5 @@
 /*
- * @lc app=leetcode id=430 lang=cpp
+ * @lc app=leetcode.cn id=430 lang=cpp
  *
  * https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/
  */
