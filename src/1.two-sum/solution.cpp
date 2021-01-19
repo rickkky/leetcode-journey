@@ -10,6 +10,7 @@
 using namespace std;
 
 // @lc code=start
+
 class Solution {
  public:
   vector<int> twoSum(vector<int> &nums, int target) {
@@ -28,4 +29,5 @@ class Solution {
     return {};
   }
 };
+
 // @lc code=end

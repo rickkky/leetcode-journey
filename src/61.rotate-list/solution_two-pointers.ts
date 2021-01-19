@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 // k >= 0, int
 function rotateRight(head: ListNode | null, k: number): ListNode | null {
   if (!head) {
@@ -53,6 +54,7 @@ function rotateRight(head: ListNode | null, k: number): ListNode | null {
 
   return answer;
 }
+
 // @lc code=end
 
 export default rotateRight;

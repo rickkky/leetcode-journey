@@ -20,6 +20,7 @@ class Node {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   Node *flatten(Node *head) {
@@ -59,4 +60,5 @@ class Solution {
     return head;
   }
 };
+
 // @lc code=end

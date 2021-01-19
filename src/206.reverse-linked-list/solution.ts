@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function reverseList(head: ListNode | null): ListNode | null {
   let curr = head;
   let prev: ListNode | null = null;
@@ -30,6 +31,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
   return prev;
 }
+
 // @lc code=end
 
 export default reverseList;

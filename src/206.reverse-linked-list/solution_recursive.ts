@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function reverseListRecursive(node: ListNode | null): ListNode | null {
   if (!node || !node.next) {
     return node;
@@ -33,6 +34,7 @@ function reverseListRecursive(node: ListNode | null): ListNode | null {
 function reverseList(head: ListNode | null): ListNode | null {
   return reverseListRecursive(head);
 }
+
 // @lc code=end
 
 export default reverseList;

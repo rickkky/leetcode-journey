@@ -16,6 +16,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   ListNode *removeElements(ListNode *head, int val) {
@@ -37,4 +38,5 @@ class Solution {
     return ans;
   }
 };
+
 // @lc code=end

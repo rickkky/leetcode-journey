@@ -21,6 +21,7 @@ class Node {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   Node *copyRandomList(Node *head) {
@@ -69,4 +70,5 @@ class Solution {
     return answer;
   }
 };
+
 // @lc code=end

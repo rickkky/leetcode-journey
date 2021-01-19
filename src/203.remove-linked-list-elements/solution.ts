@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function removeElements(head: ListNode | null, val: number): ListNode | null {
   const sentry = new ListNode(0, head);
   let current: ListNode | null = sentry;
@@ -31,6 +32,7 @@ function removeElements(head: ListNode | null, val: number): ListNode | null {
 
   return sentry.next;
 }
+
 // @lc code=end
 
 export default removeElements;

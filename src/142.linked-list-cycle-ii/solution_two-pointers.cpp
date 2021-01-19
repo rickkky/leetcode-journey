@@ -14,6 +14,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  private:
   ListNode *findFirstEncounter(ListNode *head) {
@@ -61,4 +62,5 @@ class Solution {
  public:
   ListNode *detectCycle(ListNode *head) { return findCycleEntry(head); }
 };
+
 // @lc code=end

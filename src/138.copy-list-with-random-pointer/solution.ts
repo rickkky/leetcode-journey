@@ -19,6 +19,7 @@ class Node {
 }
 
 // @lc code=start
+
 function copyRandomList(head: Node | null): Node | null {
   if (!head) {
     return null;
@@ -64,6 +65,7 @@ function copyRandomList(head: Node | null): Node | null {
 
   return answer;
 }
+
 // @lc code=end
 
 export default copyRandomList;

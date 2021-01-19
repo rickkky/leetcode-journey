@@ -16,6 +16,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   // n is valid - [1, len]
@@ -48,4 +49,5 @@ class Solution {
     return ans;
   }
 };
+
 // @lc code=end

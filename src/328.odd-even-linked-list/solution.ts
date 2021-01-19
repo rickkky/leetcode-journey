@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function oddEvenList(head: ListNode | null): ListNode | null {
   if (!head) {
     return null;
@@ -37,6 +38,7 @@ function oddEvenList(head: ListNode | null): ListNode | null {
 
   return head;
 }
+
 // @lc code=end
 
 export default oddEvenList;

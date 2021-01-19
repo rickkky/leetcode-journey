@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function findFirstEncounter(head: ListNode | null) {
   if (!head) {
     return null;
@@ -62,6 +63,7 @@ function findCycleEntry(head: ListNode | null) {
 function detectCycle(head: ListNode | null): ListNode | null {
   return findCycleEntry(head);
 }
+
 // @lc code=end
 
 export default detectCycle;

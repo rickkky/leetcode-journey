@@ -18,6 +18,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   ListNode *detectCycle(ListNode *head) {
@@ -40,4 +41,5 @@ class Solution {
     return nullptr;
   }
 };
+
 // @lc code=end

@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function getIntersectionNode(
   l1: ListNode | null,
   l2: ListNode | null,
@@ -35,6 +36,7 @@ function getIntersectionNode(
 
   return p1;
 }
+
 // @lc code=end
 
 export default getIntersectionNode;

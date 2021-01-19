@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function mergeTwoLists(
   l1: ListNode | null,
   l2: ListNode | null,
@@ -45,6 +46,7 @@ function mergeTwoLists(
 
   return sentry.next;
 }
+
 // @lc code=end
 
 export default mergeTwoLists;

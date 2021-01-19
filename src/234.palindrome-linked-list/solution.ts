@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function reverseList(head: ListNode | null) {
   let curr = head;
   let prev: ListNode | null = null;
@@ -69,6 +70,7 @@ function isPalindrome(head: ListNode | null): boolean {
 
   return answer;
 }
+
 // @lc code=end
 
 export default isPalindrome;

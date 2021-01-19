@@ -20,6 +20,7 @@ class Node {
 };
 
 // @lc code=start
+
 class Solution {
  private:
   Node *flattenRecursive(Node *prev, Node *curr) {
@@ -56,4 +57,5 @@ class Solution {
     return head;
   }
 };
+
 // @lc code=end

@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function hasCycle(head: ListNode | null): boolean {
   if (!head) {
     return false;
@@ -36,6 +37,7 @@ function hasCycle(head: ListNode | null): boolean {
 
   return false;
 }
+
 // @lc code=end
 
 export default hasCycle;

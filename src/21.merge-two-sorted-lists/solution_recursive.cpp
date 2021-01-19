@@ -14,6 +14,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  private:
   ListNode *mergeTwoListsRecursive(ListNode *p1, ListNode *p2) {
@@ -37,4 +38,5 @@ class Solution {
     return mergeTwoListsRecursive(l1, l2);
   }
 };
+
 // @lc code=end

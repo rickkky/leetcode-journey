@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+
 interface ListNode {
   val: number;
   prev: ListNode | null;
@@ -143,6 +144,7 @@ class MyLinkedList {
     this.length -= 1;
   }
 }
+
 // @lc code=end
 
 export default MyLinkedList;

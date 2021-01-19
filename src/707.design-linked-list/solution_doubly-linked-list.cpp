@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+
 class MyLinkedList {
  private:
   struct ListNode {
@@ -164,4 +165,5 @@ class MyLinkedList {
     length -= 1;
   }
 };
+
 // @lc code=end

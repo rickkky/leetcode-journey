@@ -21,6 +21,7 @@ class Node {
 }
 
 // @lc code=start
+
 function flattenRecursive(prev: Node, curr: Node | null): Node {
   if (!curr) {
     return prev;
@@ -52,6 +53,7 @@ function flatten(head: Node | null): Node | null {
 
   return head;
 }
+
 // @lc code=end
 
 export default flatten;

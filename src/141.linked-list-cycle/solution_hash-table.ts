@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function hasCycle(head: ListNode | null): boolean {
   const set = new Set<ListNode>();
   let current = head;
@@ -32,6 +33,7 @@ function hasCycle(head: ListNode | null): boolean {
 
   return false;
 }
+
 // @lc code=end
 
 export default hasCycle;

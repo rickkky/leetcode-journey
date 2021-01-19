@@ -21,6 +21,7 @@ class Node {
 }
 
 // @lc code=start
+
 function flatten(head: Node | null): Node | null {
   if (!head) {
     return null;
@@ -54,6 +55,7 @@ function flatten(head: Node | null): Node | null {
 
   return head;
 }
+
 // @lc code=end
 
 export default flatten;

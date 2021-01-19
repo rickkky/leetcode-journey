@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function mergeTwoListsRecursive(
   p1: ListNode | null,
   p2: ListNode | null,
@@ -42,6 +43,7 @@ function mergeTwoLists(
 ): ListNode | null {
   return mergeTwoListsRecursive(l1, l2);
 }
+
 // @lc code=end
 
 export default mergeTwoLists;

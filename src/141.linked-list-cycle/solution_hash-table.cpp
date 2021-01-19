@@ -18,6 +18,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   bool hasCycle(ListNode *head) {
@@ -36,4 +37,5 @@ class Solution {
     return false;
   }
 };
+
 // @lc code=end

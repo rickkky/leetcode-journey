@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 // n is valid - [1, len]
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   // Use a sentry node to make sure
@@ -42,6 +43,7 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
 
   return sentry.next;
 }
+
 // @lc code=end
 
 export default removeNthFromEnd;

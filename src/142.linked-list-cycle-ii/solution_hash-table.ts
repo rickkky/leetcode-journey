@@ -17,6 +17,7 @@ class ListNode {
 }
 
 // @lc code=start
+
 function detectCycle(head: ListNode | null): ListNode | null {
   if (!head) {
     return null;
@@ -36,6 +37,7 @@ function detectCycle(head: ListNode | null): ListNode | null {
 
   return null;
 }
+
 // @lc code=end
 
 export default detectCycle;

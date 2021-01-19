@@ -14,6 +14,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   ListNode *reverseList(ListNode *head) {
@@ -30,4 +31,5 @@ class Solution {
     return prev;
   }
 };
+
 // @lc code=end

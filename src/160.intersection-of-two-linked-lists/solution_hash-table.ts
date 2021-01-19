@@ -52,6 +52,7 @@ function getIntersectionNode(
 
   return null;
 }
+
 // @lc code=end
 
 export default getIntersectionNode;

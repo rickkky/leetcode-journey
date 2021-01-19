@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+
 class MyLinkedList {
  private:
   struct ListNode {
@@ -115,4 +116,5 @@ class MyLinkedList {
     delete target;
   }
 };
+
 // @lc code=end

@@ -14,6 +14,7 @@ struct ListNode {
 };
 
 // @lc code=start
+
 class Solution {
  public:
   ListNode *getIntersectionNode(ListNode *l1, ListNode *l2) {
@@ -32,4 +33,5 @@ class Solution {
     return p1;
   }
 };
+
 // @lc code=end
