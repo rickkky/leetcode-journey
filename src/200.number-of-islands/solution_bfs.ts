@@ -16,7 +16,7 @@ function clearIslandBfs(grid: string[][], row: number, col: number) {
   // queue element: [rowIndex, colIndex]
   const queue: [number, number][] = [];
 
-  // reset grid element and push it to queue
+  // clear grid element and push it to queue
   grid[row][col] = '0';
   queue.push([row, col]);
 

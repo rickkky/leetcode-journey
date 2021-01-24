@@ -16,14 +16,14 @@ class Solution {
  private:
   // grid is not empty
   // row, col are valid
-  void resetIslandBfs(vector<vector<char>> &grid, int row, int col) {
+  void clearIslandBfs(vector<vector<char>> &grid, int row, int col) {
     int row_num = grid.size();
     int col_num = grid[0].size();
 
     // a queue to store unhandled elements of the island
     queue<pair<int, int>> elms;
 
-    // reset grid element and push it to queue
+    // clear grid element and push it to queue
     grid[row][col] = '0';
     elms.push({row, col});
 
@@ -71,7 +71,7 @@ class Solution {
       for (int col = 0; col < col_num; ++col) {
         if (grid[row][col] == '1') {
           island_num += 1;
-          resetIslandBfs(grid, row, col);
+          clearIslandBfs(grid, row, col);
         }
       }
     }

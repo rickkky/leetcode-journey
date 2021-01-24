@@ -23,7 +23,7 @@ class Solution {
     // a stack to store unhandled elements of the island
     stack<pair<int, int>> elms;
 
-    // reset grid element and push it to stack
+    // clear grid element and push it to stack
     grid[row][col] = '0';
     elms.push({row, col});
 

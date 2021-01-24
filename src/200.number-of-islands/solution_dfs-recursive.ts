@@ -12,7 +12,7 @@ function clearIslandDfsRecursive(grid: string[][], row: number, col: number) {
   const rowNum = grid.length;
   const colNum = grid[0].length;
 
-  // reset current element
+  // clear current element
   grid[row][col] = '0';
 
   // up

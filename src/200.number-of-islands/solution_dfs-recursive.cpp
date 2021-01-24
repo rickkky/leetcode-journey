@@ -20,7 +20,7 @@ class Solution {
     int row_num = grid.size();
     int col_num = grid[0].size();
 
-    // reset current element
+    // clear current element
     grid[row][col] = '0';
 
     // up

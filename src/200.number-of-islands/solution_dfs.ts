@@ -16,7 +16,7 @@ function clearIslandDfs(grid: string[][], row: number, col: number) {
   // stack element: [rowIndex, colIndex]
   const stack: [number, number][] = [];
 
-  // reset grid element and push it to stack
+  // clear grid element and push it to stack
   grid[row][col] = '0';
   stack.push([row, col]);
 
