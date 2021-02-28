@@ -1,5 +1,7 @@
 # [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 
+## [循环链表法](./solution_cycle-list.ts)
+
 思路：
 
 1. 遍历链表结点，找到尾结点并计算链表长度；
