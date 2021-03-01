@@ -7,7 +7,7 @@
 // @lc code=start
 
 function numSquares(n: number): number {
-  const maxSquareIndex: number = parseInt(Math.sqrt(n).toFixed(0));
+  const maxSquareIndex: number = parseInt(Math.sqrt(n).toString());
 
   // pre-calculate the square numbers
   const squares: number[] = [];

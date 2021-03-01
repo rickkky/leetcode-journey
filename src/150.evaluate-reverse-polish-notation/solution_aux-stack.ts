@@ -23,7 +23,7 @@ function evalRPN(tokens: string[]): number {
       } else if (token === '*') {
         nums.push(num2 * num1);
       } else if (token === '/') {
-        nums.push(parseInt((num2 / num1).toFixed(0)));
+        nums.push(parseInt((num2 / num1).toString()));
       }
     } else {
       nums.push(parseInt(token));
