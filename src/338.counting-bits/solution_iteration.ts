@@ -19,7 +19,7 @@ function countOnes(num: number) {
 }
 
 function countBits(num: number): number[] {
-  const bits = [];
+  const bits: number[] = [];
 
   for (let i = 0; i <= num; ++i) {
     bits.push(countOnes(i));
