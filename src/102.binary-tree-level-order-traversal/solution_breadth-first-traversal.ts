@@ -9,18 +9,18 @@
  */
 class TreeNode {
   val: number;
-  left: TreeNode | null;
-  right: TreeNode | null;
-  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+  left: TreeNode | undefined;
+  right: TreeNode | undefined;
+  constructor(val?: number, left?: TreeNode, right?: TreeNode) {
     this.val = val === undefined ? 0 : val;
-    this.left = left === undefined ? null : left;
-    this.right = right === undefined ? null : right;
+    this.left = left === undefined ? undefined : left;
+    this.right = right === undefined ? undefined : right;
   }
 }
 
 // @lc code=start
 
-function levelOrder(root: TreeNode | null): number[][] {
+function levelOrder(root: TreeNode | undefined): number[][] {
   if (!root) {
     return [];
   }
@@ -54,6 +54,10 @@ function levelOrder(root: TreeNode | null): number[][] {
 
   return answer;
 }
+
+// time: O(n).
+
+// space: O(n).
 
 // @lc code=end
 

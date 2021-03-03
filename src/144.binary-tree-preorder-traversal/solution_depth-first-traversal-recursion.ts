@@ -9,19 +9,19 @@
  */
 class TreeNode {
   val: number;
-  left: TreeNode | null;
-  right: TreeNode | null;
-  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+  left: TreeNode | undefined;
+  right: TreeNode | undefined;
+  constructor(val?: number, left?: TreeNode, right?: TreeNode) {
     this.val = val === undefined ? 0 : val;
-    this.left = left === undefined ? null : left;
-    this.right = right === undefined ? null : right;
+    this.left = left === undefined ? undefined : left;
+    this.right = right === undefined ? undefined : right;
   }
 }
 
 // @lc code=start
 
 function preorderTraversalRecursive(
-  root: TreeNode | null,
+  root: TreeNode | undefined,
   sequences: number[],
 ) {
   if (!root) {
@@ -33,11 +33,15 @@ function preorderTraversalRecursive(
   preorderTraversalRecursive(root.right, sequences);
 }
 
-function preorderTraversal(root: TreeNode | null): number[] {
+function preorderTraversal(root: TreeNode | undefined): number[] {
   const sequences: number[] = [];
   preorderTraversalRecursive(root, sequences);
   return sequences;
 }
+
+// time: O(n).
+
+// space: O(n).
 
 // @lc code=end
 
