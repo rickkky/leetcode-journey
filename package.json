@@ -1,13 +1,12 @@
 {
   "name": "leetcode-journey",
   "version": "1.0.0",
+  "author": "ricky",
   "description": "repo of leetcode records",
   "keywords": [
     "leetcode"
   ],
-  "author": "ricky",
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rickkky/leetcode-journey.git"
@@ -29,6 +28,25 @@
       "pre-commit": "pretty-quick --staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "always",
+    "endOfLine": "lf"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
