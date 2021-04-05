@@ -18,23 +18,27 @@ class ListNode {
 
 // @lc code=start
 
-function reverseListRecursive(node: ListNode | null): ListNode | null {
-  if (!node || !node.next) {
-    return node;
+function reverseList(head: ListNode | null): ListNode | null {
+  let curr: ListNode | null = head;
+  let prev: ListNode | null = null;
+
+  while (curr) {
+    const next: ListNode | null = curr.next;
+
+    curr.next = prev;
+    prev = curr;
+    curr = next;
   }
 
-  const head = reverseListRecursive(node.next);
-
-  node.next.next = node;
-  node.next = null;
-
-  return head;
-}
-
-function reverseList(head: ListNode | null): ListNode | null {
-  return reverseListRecursive(head);
+  return prev;
 }
 
 // @lc code=end
+
+/**
+ * time: O(n).
+ *
+ * space: O(1).
+ */
 
 export default reverseList;

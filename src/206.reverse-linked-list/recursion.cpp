@@ -35,3 +35,9 @@ class Solution {
 };
 
 // @lc code=end
+
+/**
+ * time: O(n).
+ *
+ * space: O(n).
+ */

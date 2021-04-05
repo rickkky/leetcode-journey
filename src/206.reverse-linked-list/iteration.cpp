@@ -23,6 +23,7 @@ class Solution {
 
     while (curr) {
       ListNode *next = curr->next;
+
       curr->next = prev;
       prev = curr;
       curr = next;
@@ -33,3 +34,9 @@ class Solution {
 };
 
 // @lc code=end
+
+/**
+ * time: O(n).
+ *
+ * space: O(1).
+ */
