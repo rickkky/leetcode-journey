@@ -1,20 +1,18 @@
 {
   "name": "leetcode-journey",
-  "version": "1.0.0",
   "author": "ricky",
-  "description": "repo of leetcode records",
+  "description": "leetcode solutions",
   "keywords": [
     "leetcode"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rickkky/leetcode-journey.git"
   },
+  "homepage": "https://github.com/rickkky/leetcode-journey/",
   "bugs": {
     "url": "https://github.com/rickkky/leetcode-journey/issues"
   },
-  "homepage": "https://github.com/rickkky/leetcode-journey#readme",
   "scripts": {
     "commit:cz": "cz"
   },
