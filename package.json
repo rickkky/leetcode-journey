@@ -9,22 +9,17 @@
     "type": "git",
     "url": "git+https://github.com/rickkky/leetcode-journey.git"
   },
-  "homepage": "https://github.com/rickkky/leetcode-journey/",
+  "homepage": "https://github.com/rickkky/leetcode-journey",
   "bugs": {
     "url": "https://github.com/rickkky/leetcode-journey/issues"
   },
   "scripts": {
-    "commit:cz": "cz"
+    "commit:cz": "cz",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "commitlint": {
@@ -47,11 +42,11 @@
     "endOfLine": "lf"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "commitizen": "^4.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^4.3.8",
+    "husky": "^6.0.0",
     "prettier": "2.2.1",
     "pretty-quick": "^3.1.0"
   }
