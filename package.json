@@ -14,8 +14,8 @@
     "url": "https://github.com/rickkky/leetcode-journey/issues"
   },
   "scripts": {
-    "commit:cz": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit:cz": "cz"
   },
   "config": {
     "commitizen": {
